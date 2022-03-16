@@ -6,6 +6,7 @@ class App{
 		const container = document.createElement( 'div' );
 		document.body.appendChild( container );
     
+		//Camera
         this.camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 100);
 		this.camera.position.set(0,0,4);
 
